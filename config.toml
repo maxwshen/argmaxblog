@@ -1,4 +1,4 @@
 baseURL = 'http://hugo-quickstart-template.netlify.com'
 languageCode = 'en-us'
 title = 'argmax(blog)'
-theme = 'PaperMod'
+theme = 'hugo-PaperMod-master'
