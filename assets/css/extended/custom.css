@@ -18,6 +18,11 @@
 	color: var(--content);
 }
 
+/* Increase coding font size -- hacky? */
+.highlight {
+	font-size: 115% !important;
+}
+
 /* Increase the font of summary text. */
 /* .post-entry .entry-content { */
     /* font-size: 18px; */
