@@ -1,0 +1,77 @@
+/* Control width of content shown */
+:root {
+    --nav-width: 1380px;
+    --article-width: 880px;
+    --toc-width: 270px;
+}
+
+.main.page {
+    max-width: calc(var(--article-width) + var(--gap) * 2);
+}
+
+.toc-container.wide .toc .details {
+    font-size: 80%;
+    font-style: italic;
+}
+
+.toc {
+    background: var(--entry);
+}
+
+.toc-container.wide {
+    position: absolute;
+    height: 100%;
+    border-right: 1px solid var(--border);
+    left: calc((var(--toc-width) + var(--gap)) * -1);
+    top: calc(var(--gap) * 2);
+    width: var(--toc-width);
+}
+
+.wide .toc {
+    position: sticky;
+    top: var(--gap);
+    border: unset;
+    background: unset;
+    border-radius: unset;
+    width: 100%;
+    margin: 0 2px 40px 2px;
+}
+
+.toc details summary {
+    cursor: zoom-in;
+    margin-inline-start: 20px;
+    padding: 12px 0;
+}
+
+.toc-container.wide .toc .inner {
+    margin: 0;
+}
+
+.active {
+    font-weight: 600;
+}
+
+.toc ul {list-style-type: circle;}
+.toc ul ul {list-style-type: circle !important;}
+.toc ul ul ul {list-style-type: circle !important;}
+.toc ul ul ul ul {list-style-type: circle !important;}
+
+.toc .inner {
+    margin: 0 0 0 20px;
+    padding: 0px 15px 15px 20px;
+    font-size: 80%;
+}
+
+.toc li ul {
+    margin-inline-start: calc(var(--gap) * 0.5);
+    list-style-type: none;
+}
+
+.paginav {
+    border-radius: var(--radius);
+    background: var(--code-bg);
+}
+
+.post-tags a:hover {
+    background: var(--border);
+}

@@ -1,0 +1,24 @@
+.main {
+	--main-width: 800px;
+}
+.main.post {
+    /* --main-width: 1200px; */
+    /* --main-width: 920; */
+    position: relative;
+	min-height: calc(100vh - var(--header-height) - var(--footer-height));
+	max-width: calc(var(--main-width) + var(--gap) * 2);
+	margin: auto;
+    margin-right: 50px;
+	padding: var(--content-gap)var(--gap)0;
+}
+
+.post-content {
+	font-size: 16px;
+    /* line-height: 1.5em; */
+	color: var(--content);
+}
+
+/* Increase the font of summary text. */
+/* .post-entry .entry-content { */
+    /* font-size: 18px; */
+/* } */
