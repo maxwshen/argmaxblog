@@ -2,6 +2,8 @@
  title: "On KL Divergence in Discrete Spaces"
  math: mathjax
  author: ["Max Shen", "Nathaniel Diamant"]
+ summary: KL behaves differently in discrete spaces than in continuous spaces.
+ date: 2022-05-01
 ---
 
 The Kullback-Leibler Divergence between two distributions $P$ and $Q$ is $D\_{\texttt{KL}}(P \| Q) = \sum\_{x \in \mathcal{X}} P(x) \log(\frac{P(x)}{Q(x)})$ when $P, Q$ are discrete distributions, and $D\_{\texttt{KL}}(P \| Q) = \int\_{-\infty}^{\infty} P(x) \log(\frac{P(x)}{Q(x)}) dx$ when $P, Q$ are continuous distributions. The KL Divergence is asymmetric: $D\_{\texttt{KL}}(P \| Q) \neq D\_{\texttt{KL}}(Q \| P)$ in general. In machine learning, we typically consider $P$ to be the fixed target or reference distribution, and $Q$ to be the learned, approximating distribution that we wish to make "close" to $P$. 

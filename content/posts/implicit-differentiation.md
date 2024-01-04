@@ -1,7 +1,9 @@
 ---
  title: "Implicit Differentiation through Equilibria"
  math: mathjax
- authors: ["Max Shen", "Jan-Christian Huetter"]
+ author: ["Max Shen", "Jan-Christian Huetter"]
+ summary: An introduction.
+ date: 2022-06-01
 ---
 *Max's note*: I've been pretty interested in deep implicit layers ([http://implicit-layers-tutorial.org/](http://implicit-layers-tutorial.org/), but I've found a lot of the online resources and papers describing implicit differentiation to have unsatisfying notation, probably because my calculus is more rusty than other people's. This post is my attempt to rewrite notes so that I can understand them more clearly.
 
