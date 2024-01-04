@@ -3,7 +3,7 @@
  math: mathjax
  description: Exploring connections between diffusion models, alphafold's recycling, structured prediction energy networks, and manifold learning. 
  summary: Exploring connections between diffusion models, alphafold's recycling, structured prediction energy networks, and manifold learning. 
- date: 2022-07-01
+ date: 2022-08-29
 ---
 
 Are diffusion models a passing fad, or are they here to stay? This post arose, in part, from pondering this question ...
