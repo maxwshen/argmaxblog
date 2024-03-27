@@ -1,6 +1,6 @@
 ---
   title: "What is data? The classical and postmodern views"
-  math: mathjax / katex
+  math: mathjax
   summary: Is data sacred?
   date: 2024-03-27
 ---
