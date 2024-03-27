@@ -1,4 +1,5 @@
-baseURL = 'http://serene-sorbet-2f829a.netlify.com'
+# baseURL = 'http://serene-sorbet-2f829a.netlify.com'
+baseURL = 'https://argmax.blog'
 languageCode = 'en-us'
 title = 'argmax(blog)'
 # theme = 'hugo-PaperModX-6.0'
