@@ -11,7 +11,7 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 
-# googleAnalytics = 'UA-123-45'
+googleAnalytics = 'G-11QD8G8DFW'
 
 [minify]
   disableXML = true
