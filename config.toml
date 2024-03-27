@@ -66,8 +66,9 @@ buildExpired = false
 
   # home-info mode
   [params.homeInfoParams]
-    Title = 'Welcome to argmax(blog)'
-    Content = "Hi, I'm Max, a researcher and scientist at Prescient Design, Frontiers Research at Genentech (Roche)."
+    Title = 'argmax(blog)'
+    # Content = "Hi, I'm Max Shen, a researcher and scientist at Prescient Design, Frontiers Research at Genentech. Here, I share my wanderings and wonderings. Thoughts are never final."
+    Content = "Hi, I'm Max Shen. Here, I share my wanderings and wonderings. Thoughts are never final."
 
 #   [params.socialIcons]
     # - name = twitter
