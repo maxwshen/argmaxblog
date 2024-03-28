@@ -3,7 +3,7 @@ baseURL = 'https://argmax.blog'
 languageCode = 'en-us'
 title = 'argmax(blog)'
 # theme = 'hugo-PaperModX-6.0'
-theme = 'hugo-PaperMod-master'
+theme = ["hugo-shortcode-roneo-collection", "hugo-PaperMod-master"]
 paginate = 5
 
 enableRobotsTXT = true
