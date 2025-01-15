@@ -27,8 +27,9 @@ googleAnalytics = 'G-11QD8G8DFW'
   # author = ["Me", "You"] # multiple authors
   images = ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat = "January 2, 2006"
-  defaultTheme = 'light' # dark, light, auto
-  disableThemeToggle = true
+  defaultTheme = 'auto'
+  # defaultTheme = 'light' # dark, light, auto
+  # disableThemeToggle = true
 
   ShowReadingTime = true
   ShowShareButtons = false
@@ -69,7 +70,7 @@ googleAnalytics = 'G-11QD8G8DFW'
   [params.homeInfoParams]
     Title = 'argmax(blog)'
     # Content = "Hi, I'm Max Shen, a researcher and scientist at Prescient Design, Frontiers Research at Genentech. Here, I share my wanderings and wonderings. Thoughts are never final."
-    Content = "Hi, I'm Max Shen. Here, I share my wanderings and wonderings. Thoughts are never final."
+    Content = "Hi, I'm Max Shen. Here, I share my wanderings and wonderings. For more about me, see www.maxwshen.com"
 
 #   [params.socialIcons]
     # - name = twitter
