@@ -1,7 +1,7 @@
 ---
   title: "On diversity and many-model ensembling: AI government & AI-augmented public goods funding"
   math: mathjax
-  summary: summary
+  summary: When AI agents outnumber voters, how should we elect an AI government?
   date: 2025-01-14
 ---
 
